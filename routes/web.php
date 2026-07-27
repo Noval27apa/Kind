@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+// Mengarahkan halaman utama langsung ke halaman login portal
+Route::redirect('/', '/login');
+
 // ==========================================
 // 1. JALUR PELANGGAN (BEBAS DIAKSES)
 // ==========================================
